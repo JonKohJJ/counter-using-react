@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: dimgrey;
+    font-family: 'DM Sans', sans-serif;
+    color: azure;
+}
+.container{
+    width: 85%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    /* outline: 1px solid white */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    /* position: absolute;
+    top: 0; */
+    width: 100%;
+}
+.navbar h1 a{
+    color: azure;
+    text-decoration: none;
+}
+.navbar h1 a:hover{
+    color: black;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+
+}
+.navbar ul li a{
+    margin-left: 20px;
+    cursor: pointer;
+    color: azure;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.contentContainer{
+    outline: 1px solid black;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.counter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
+.counterContainer{
+    display: flex;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.counter h2{
+    margin-bottom: 10px;
+}
+.counter .button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 20px;
+    font-size: 1.5rem;
+}
+.counter .button:hover{
+    background-color: black;
+}
+.counterValue{
+    min-width: 75px;
+    display: flex;
+    justify-content: center;
+}
+.reset{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.reset:hover{
+    color: black;
+}
+.alerts{
+    color: yellow;
+    font-style: italic;
 }
