@@ -24,15 +24,15 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
-    /* position: absolute;
-    top: 0; */
+    position: absolute;
+    top: 0;
     width: 100%;
 }
-.navbar h1 a{
+.navbar h1{
     color: azure;
     text-decoration: none;
 }
-.navbar h1 a:hover{
+.navbar h1:hover{
     color: black;
 }
 .navbar ul{
@@ -40,26 +40,18 @@ body{
     display: flex;
 
 }
-.navbar ul li a{
+.navbar ul li{
     margin-left: 20px;
     cursor: pointer;
     color: azure;
     text-decoration: none;
 }
-.navbar ul li a:hover{
+.navbar ul li:hover{
     color: black;
 }
 
-.contentContainer{
-    outline: 1px solid black;
-    height: 85vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
 .counter{
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
