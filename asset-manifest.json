@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/JonKohJJ/counter-using-react/static/css/main.dc3fcc90.css",
+    "main.js": "/JonKohJJ/counter-using-react/static/js/main.aca4c97b.js",
+    "index.html": "/JonKohJJ/counter-using-react/index.html",
+    "main.dc3fcc90.css.map": "/JonKohJJ/counter-using-react/static/css/main.dc3fcc90.css.map",
+    "main.aca4c97b.js.map": "/JonKohJJ/counter-using-react/static/js/main.aca4c97b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc3fcc90.css",
+    "static/js/main.aca4c97b.js"
+  ]
+}
